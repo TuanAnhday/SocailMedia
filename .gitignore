@@ -1,2 +1,15 @@
+# Ignore Visual Studio temporary files
 .vs/
 *.vsidx
+
+# Ignore debug and release folders
+*.[Dd]ebug/
+*.[Rr]elease/
+*.obj
+
+# Ignore JSON files (cẩn thận với appsettings.json)
+*.Development.json
+
+# Ignore Migration files (nếu bạn muốn)
+Migrations/
+*.Designer.cs
